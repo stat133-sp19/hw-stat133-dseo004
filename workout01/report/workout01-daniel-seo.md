@@ -13,7 +13,7 @@ This report will focus analyzing the five players that represent the Golden Stat
 
 The Golden State Warriors has many players with phenomenal records. It has always interested me to see how much further the Warriors can continue their dominant performace. As an individual who loves to play around with numbers, being able to manipulate data sets and analyzing each individual player's ability of his role fascinates me.
 
-**Background \#**Best Team of All Time?\*\* ![Warriors](https://www.nba.com/.element/media/2.0/teamsites/warriors/images/warriors_allstars_2016_1280x720.jpg)
+**Background** \#**Best Team of All Time?\*\* ![Warriors](https://www.nba.com/.element/media/2.0/teamsites/warriors/images/warriors_allstars_2016_1280x720.jpg)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The Golden State Warriors is arguably the most consistent and strongest team in the NBA in the last couple of years. Under coach Steve Kerr, the Warriors have won the championships in the 2014-2015, 2016-2017, and 2017-2018 seasons. Setting a new record of a jaw opening performance of 73-9 in the 2015-2016 season, this project is going to analyze and intepret the performances of the 5 key players that allowed this to happen.
