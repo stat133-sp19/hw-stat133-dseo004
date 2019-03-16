@@ -13,7 +13,7 @@ This report will focus analyzing the five players that represent the Golden Stat
 
 The Golden State Warriors has many players with phenomenal records. It has always interested me to see how much further the Warriors can continue their dominant performace. As an individual who loves to play around with numbers, being able to manipulate data sets and analyzing each individual player's ability of his role fascinates me.
 
-**Background** 
+##**Background** 
 #**Best Team of All Time?\*\* 
 ![Warriors](https://www.nba.com/.element/media/2.0/teamsites/warriors/images/warriors_allstars_2016_1280x720.jpg)
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
