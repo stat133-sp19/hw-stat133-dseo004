@@ -1,0 +1,82 @@
+---
+title: "Vignettes"
+author: "Daniel Seo"
+date: "5/1/2019"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to binomial}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(binomial)
+```
+
+```{r setup, include=FALSE, echo = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(binomial)
+library(ggplot2)
+```
+
+## bin_choose(n, k)
+
+For us to calculate the probability of binomial distribution with given number of trials, probability, and success, we first have to calculate the number of combinations in which k success can occur in n trials.
+
+```{r}
+bin_choose(n = 5, k = 2)
+bin_choose(5, 0)
+bin_choose(5, 1:4)
+```
+
+## bin_probability(success, trials, prob)
+
+We then are able to calculate the probability with given values of success, trials, and prob.
+```{r}
+bin_probability(success = 2, trials = 5, prob = 0.5)
+bin_probability(success = 0:3, trials = 5, prob = 0.5)
+bin_probability(success = 45, trials = 100, prob = 0.55)
+```
+
+## bin_distribution(trials, prob)
+
+We now can get data frame with the binomial probability distribution.
+
+```{r}
+bin_distribution(5, 0.5)
+```
+
+We use barplot() to display the probability histogram of the binomial distribution.
+
+```{r}
+dist <- bin_distribution(5, 0.5)
+plot(dist)
+```
+
+## bin_cumulative()
+
+Now let's get the data frame with both the probability distribution and the cummulative probabilities.
+```{r}
+bin_cumulative(5, 0.5)
+```
+
+Use barplot() to display the cumulative distribution.
+```{r}
+dist2 <- bin_cumulative(5, 0.5)
+plot(dist2)
+```
+
+## bin_variable()
+
+This function calculates cumulative binomial distribution given the number of trials and probability.
+```{r}
+bin_variable(10, 0.2)
+```
+
+The `summary()` function returns a table of relavant statistics of binomial distribution.
+```{r}
+bins <- bin_variable(10, 0.3)
+binsums<- summary(bins)
+binsums
+```
